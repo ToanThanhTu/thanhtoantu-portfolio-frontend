@@ -24,7 +24,7 @@ function Work() {
                                 <img src={imageMap[name]} alt={name} className='w-full rounded-lg' />
                                 <h4>{name}</h4>
                                 <p>{description}</p>
-                                <a href={url} className='btn absolute bottom-4'>View this project</a>
+                                <a href={url} className='btn absolute bottom-4' target='_blank'>View this project</a>
                             </li>
                         );
                     })}

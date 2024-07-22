@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 // import navigation bar and footer components
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
+import ScrollTopButton from './components/ScrollTopButton';
 
 // import the sections
 import About from './pages/About';
@@ -40,6 +41,7 @@ const App: React.FC = () => {
       <About />
       <Work />
       <Contact />
+      <ScrollTopButton />
       <Footer />
     </main>
   )
