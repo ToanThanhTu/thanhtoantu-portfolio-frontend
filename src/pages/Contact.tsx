@@ -14,14 +14,16 @@ const iconMap: { [key: string]: JSX.Element } = {
 
 function Contact() {
     return (
-        <section id='contact-section' className="portfolio-width md:py-96 py-40 text-center px-8">
-            <p className='italic'>Let's work together!</p>
-            <h2 className='font-semibold'>Contact Me</h2>
-            <ul className='flex justify-center space-x-4 mt-10'>
+        <section id='contact-section' className="portfolio-width md:py-96 py-40">
+            <p className='italic text-center'>Let's work together!</p>
+            <h2 className='font-semibold text-center'>Contact Me</h2>
+            <ul className='sm:flex sm:justify-center sm:space-x-4 mt-10 grid grid-cols-2 gap-4 m-auto w-fit'>
                 {contactMethods.map(({ name, icon, url }) => {
                     return (
-                        <li key={name} className="text-2xl">                            
-                            <a href={url} target="_blank" rel="noreferrer">{iconMap[icon]}{name}</a>
+                        <li key={name} className="text-xl">
+                            <a href={url} target="_blank" rel="noreferrer">
+                                <p>{iconMap[icon]}{name}</p>
+                            </a>
                         </li>
                     );
                 })}

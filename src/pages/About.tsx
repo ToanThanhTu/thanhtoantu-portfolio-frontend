@@ -11,7 +11,7 @@ function About() {
     return (
         <section id='about-section' className="flex-col justify-between items-center">
             {/* Intro section */}
-            <section className="block lg:flex lg:justify-between lg:items-center lg:space-x-12 space-y-12 h-1/2 portfolio-width pt-44 pb-32 px-8">
+            <section className="block lg:flex lg:justify-between lg:items-center lg:space-x-12 space-y-12 h-1/2 portfolio-width pt-44 pb-32">
                 {/* div with Profile pic and name */} 
                 <div className="lg:w-1/2">
                     <img src={profilePic} alt="profile picture" className="w-14 rounded-full mb-6" />
@@ -31,7 +31,7 @@ function About() {
             </section>
             {/* Skills and Professional Development section */}
             <section className="bg-primary-background">                
-                <section className="xl:flex xl:justify-between xl:space-x-12 xl:space-y-0 space-y-8 portfolio-width py-20 px-8">
+                <section className="xl:flex xl:justify-between xl:space-x-12 xl:space-y-0 space-y-8 portfolio-width py-20">
                     {/* Skills Summary section */}
                     <div className="xl:w-1/2">
                         <h3>Skills Summary</h3>

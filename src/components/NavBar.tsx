@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
 
     return (
         <div className="fixed w-full bg-primary-white z-50 px-8">
-            <nav className="flex h-14 items-center portfolio-width justify-between">
+            <nav className="flex h-14 items-center justify-between">
                 <img src={logo} alt="3T logo" className="flex-none size-10" />
                 <ul className="flex-auto hidden  sm:flex justify-end space-x-6 md:space-x-10 md:justify-center">
                     {navItems.map(([text, id]) => (

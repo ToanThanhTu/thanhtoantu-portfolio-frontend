@@ -25,6 +25,7 @@ const App: React.FC = () => {
     imgUrl: string
   };
 
+  // fetch the weather data when the component mounts for the first time 
   useEffect(() => {
     weatherService.getWeather().then((data: weatherType) => {
       setWeather(data);

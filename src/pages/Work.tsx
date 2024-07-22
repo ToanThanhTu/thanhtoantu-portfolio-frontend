@@ -14,7 +14,7 @@ const imageMap: { [key: string]: string } = {
 function Work() {
     return (
         <section id='work-section' className="bg-primary-background">
-            <div className="m-auto max-w-3xl min-w-64 text-center pb-20 px-8">
+            <div className="m-auto max-w-3xl min-w-64 text-center pb-20 px-4">
             <hr className='pb-20 border-t-2 border-primary-grey' />
                 <h2 className='font-semibold'>Selected Projects</h2>
                 <ul className='grid gap-4 sm:grid-cols-2 mt-10 justify-center'>
