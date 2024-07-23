@@ -19,7 +19,7 @@ function ScrollTopButton() {
     return (
         <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className={`fixed bottom-20 right-20 p-2 rounded-full bg-primary-black text-white ${scroll > 20 ? 'block' : 'hidden'}`}
+            className={`fixed sm:bottom-20 sm:right-20 bottom-10 right-10 p-2 rounded-full bg-primary-black text-white ${scroll > 20 ? 'block' : 'hidden'}`}
         >
             <KeyboardArrowUpIcon />
         </button>
